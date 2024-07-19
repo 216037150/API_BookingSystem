@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/z";
+const uri = process.env.MONGODB_URI || "mongodb+srv://siyabongazungu95:Siyabonga%40100@cluster0.kp8zlnn.mongodb.net/";
 const dbName = process.env.DB_NAME || "customer";
 const collectionName = "Bookings";
 
